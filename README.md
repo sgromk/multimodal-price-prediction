@@ -1,0 +1,8 @@
+Decoding ASOS Pricing with Multimodal Machine Learning
+
+Team: Andy (Dohyung) Kim, Gabriel Kinshuk, Niharika Pappu, Rishi Rahude, Liam Thompson 
+
+Abstract:
+We explored the efficacy of multimodal machine learning in e-commerce pricing by analyzing over 30,000 products from ASOS. By integrating structured metadata (brand, category, material) with natural language processing (BERT) and computer vision (ConvNeXt), we evaluated whether deep learning could capture pricing signals beyond standard attributes. We tested two primary architectures—Mid-Fusion and Late-Fusion—and found that the Late-Fusion approach yielded superior performance .
+
+However, our analysis revealed that pricing is predominantly driven by structured metadata, which alone explained roughly 70% of the variance . While visual features provided unique information, the resulting gain in predictive power was marginal. We attribute this to high product heterogeneity across hundreds of categories; 30,000 images proved insufficient to generalize subtle visual pricing cues. To address this, future iterations would likely need to aggregate embeddings across the full 5–6 images available per product rather than relying on a single "hero shot" . Ultimately, the study underscores that while multimodal architectures are powerful, the most significant improvements in pricing accuracy stem from robust, standardized data foundations rather than algorithmic complexity alone .
